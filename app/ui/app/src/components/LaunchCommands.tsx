@@ -38,6 +38,15 @@ const LAUNCH_COMMANDS: LaunchCommand[] = [
     iconClassName: "h-7 w-7",
   },
   {
+    id: "copilot",
+    name: "Copilot CLI",
+    command: "ollama launch copilot",
+    description: "GitHub's AI coding agent for the terminal",
+    icon: "/launch-icons/copilot.svg",
+    darkIcon: "/launch-icons/copilot-dark.svg",
+    iconClassName: "h-7 w-7",
+  },
+  {
     id: "opencode",
     name: "OpenCode",
     command: "ollama launch opencode",
